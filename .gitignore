@@ -5,6 +5,8 @@ venv/
 # Python cache
 *.pyc
 __pycache__/
+oasst-env/
+
 
 # Dataset files (optional - e.g., if you don’t want to push large datasets to GitHub)
 *.jsonl
