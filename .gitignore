@@ -1,0 +1,17 @@
+# Environment folders
+oasst-env/
+venv/
+
+# Python cache
+*.pyc
+__pycache__/
+
+# Dataset files (optional - e.g., if you don’t want to push large datasets to GitHub)
+*.jsonl
+*.csv
+*.parquet
+
+# Model logs, checkpoints
+*.log
+*.ckpt
+*.safetensors
