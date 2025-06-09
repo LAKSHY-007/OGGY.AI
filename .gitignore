@@ -1,19 +1,19 @@
-# Environment folders
-oasst-env/
-venv/
-
 # Python cache
-*.pyc
 __pycache__/
+*.pyc
+
+# Virtual environments
 oasst-env/
+env/
+.venv/
 
+# Checkpoint and large model directories
+processed_oasst1/
+tinyllama-finetuned-20250514_184430/
 
-# Dataset files (optional - e.g., if you don’t want to push large datasets to GitHub)
-*.jsonl
-*.csv
-*.parquet
-
-# Model logs, checkpoints
+# Logs and temporary files
 *.log
-*.ckpt
-*.safetensors
+temp_audio.wav
+
+# IDE-specific
+.vscode/
