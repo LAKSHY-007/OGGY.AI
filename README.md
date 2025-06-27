@@ -26,3 +26,25 @@
 git clone https://github.com/LAKSHY-007/OGGY.AI.git
 cd OGGY.AI
 pip install -r requirements.txt
+```
+## 🏆 Fine-Tuning Benchmark Results
+
+### 🔬 Test Configuration
+| **Hardware**          | **Software**                     | **Dataset**          |
+|-----------------------|----------------------------------|----------------------|
+| NVIDIA RTX 3090 (24GB)| PyTorch 2.1 + Transformers 4.36  | OASST1 (9,345 samples) |
+
+```python
+# Training Parameters
+{
+  "base_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "lora_rank": 8,
+  "batch_size": 4,
+  "learning_rate": 3e-4,
+  "epochs": 3
+}
+```
+
+## Screenshots
+![oggy](https://github.com/user-attachments/assets/5d7b662a-95bc-4cc1-b417-e6f407bd2bf9)
+
